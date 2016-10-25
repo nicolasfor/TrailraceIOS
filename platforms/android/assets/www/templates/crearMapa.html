@@ -1,0 +1,11 @@
+<ion-view>
+<ion-content >
+<div class="formMap">
+	<div id="map" data-tap-disabled="true"></div>
+	<button type="submit" class="button button-block" ng-show="!empezar" ng-click="ubicarPunto()"/>Ubicar Punto</button>
+	<button type="submit" class="button button-block" ng-show="empezar && !pintar" ng-click="dibujar()"/>Dibujar</button>
+	<button type="submit" class="button button-block" ng-show="pintar" ng-click="terminar()"/>Terminar</button>
+	<link href="css/ionic.app.css" rel="stylesheet">
+</div>	
+</ion-content>
+</ion-view>
